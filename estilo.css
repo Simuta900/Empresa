@@ -1,0 +1,58 @@
+body{
+	background: white;
+	color: black
+}
+.emp
+{
+	color: black;
+	font-size: 16px;
+}
+.titulo
+{
+	color: black;
+	font-size: 30px;
+}
+section
+{   text-align: center;
+	height: 200px; /*altura*/
+	width: 100%; /*ancho*/
+}
+#menu
+{   height: 40px;
+    width: 100%;
+    background: pink;
+    border-radius: 5px;
+}
+#cabecera
+{
+
+   background: yellow;
+   border-radius: 5px;
+}
+#servicios
+{
+	background: red;
+	   border-radius: 5px;
+}
+#conocenos
+{
+	background: green;
+	   border-radius: 5px;
+}
+#contactanos
+{
+	background: gray;
+	   border-radius: 5px;
+}
+#pie
+{
+	background: orange;
+	   border-radius: 5px;
+}
+
+section .articles img{
+		width: 100px;
+		height: 100px;
+		margin: auto;
+		display: block;
+}
