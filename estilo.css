@@ -5,13 +5,14 @@ body
 }
 .emp /*Agregado extra*/
 {
-	color: #00FF33;
-	font-size: 22px;
+	font-family: helvetica;
+	color: black;
+	font-size: 23px;
 }
 .titulo
 {   margin:0;
 	color: black;
-	font-size: 30px;
+	font-size: 35px;
 }
 section
 {   text-align: center;
@@ -27,37 +28,39 @@ section
 {
 	margin: 10 20 10 20;
 	display: inline-block;/*permite acomodar los elementos horizontalmente*/
-	height: 250px;
-	width: 200px;
+	height: 330px;
+	width: 300px;
 	background: #99FF99;
 	color: black;
+	vertical-align: top;
 }
 #menu
-{   height: 50px;
+{  
+	height: 50px;
     width: 100%;
-    background: #6666CC;
+    background: #FF6633;
     position: fixed; /*permite posicionar elemento en el top*/
     top: -10; /*permite asignar separación entre elemto y el top*/
 }
 #cabecera
 {
+	height: 140px;
 	margin-top: 60px;
-   background: olive;
+   background: ##99FFCC;
    border-radius: 10px;
 }
-
+.cab
+{
+	margin: 0;
+	color: #0099FF;
+	font-size: 55px;
+}
 #servicios
 {
-	background: red;
+	background: #99FFCC;
 	height: 420px;
     border-radius: 10px;
 }
-     #imgservicios
-{
-	display: block;
-	margin: auto; /*sirve para centrar una imagen*/
-}
-
 .tam
 {
 	font-size: 20px;
@@ -65,16 +68,101 @@ section
 }
 #conocenos
 {
-	background: green;
+	background: #99FFCC;
 	border-radius: 10px;
+}
+.misvis
+{
+	height: 220px;
+	width: 48%;
+	background: #FFCCCC;
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+.misvis2
+{
+	font-size: 30px;
+	display: inline-block;
+	color: #336699;
+}
+.misvis3
+{
+	margin-top: -35;
+	font-size: 30px;
+}
+#encuesta
+{
+	background: #FFFF99;
+	height: 70px;
+	margin-top: 90px;
 }
 #contactanos
 {
-	background: gray;
+	background: #99FFCC;
+	height: auto;
+	margin-top: 30px;
 	border-radius: 10px;
+}
+.titcont
+{
+	font-size: 20px;
+}
+.cont
+{
+	font-size: 30px;
+	color: blue;
+}
+.opcpie
+{
+	vertical-align: top;
+	display: inline-block;
+	height: 270px;
+	width: 48%;
+	background: #99FF99;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+.inp
+{
+	border-radius: 5px;
+	margin: 2px 0 2px 0;
+	height: 30px;
+	display: inline-block;
+}
+.inp2
+{
+	border-radius: 5px;
+	margin: 2px 0 2px 0;
+	height: 30px;
+	display: inline-block;
+	width: 90%;
+}
+.inp3
+{
+	border-radius: 5px;
+	margin: 2px 0 2px 0;
+	height: 60px;
+	display: inline-block;
+	width: 90%;
+}
+.colbtn
+{
+	border-radius: 5px;
+	width: 20%;
+	background: #85C100;
 }
 #pie
 {
-	background: orange;
-    border-radius: 10px;
+	width: 100%;
+	height: 200px;
+	background: black;
+	margin: 210 0 0 0;
+}
+.impie
+{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 80 80 80 0;
 }
