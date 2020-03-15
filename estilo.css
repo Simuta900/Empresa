@@ -29,7 +29,7 @@ section
 	margin: 10 20 10 20;
 	display: inline-block;/*permite acomodar los elementos horizontalmente*/
 	height: 330px;
-	width: 300px;
+	width: 20%;
 	background: #99FF99;
 	color: black;
 	vertical-align: top;
@@ -90,7 +90,7 @@ section
 .misvis3
 {
 	margin-top: -35;
-	font-size: 30px;
+	font-size: 200%;
 }
 #encuesta
 {
