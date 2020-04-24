@@ -160,6 +160,28 @@ section
 	background: black;
 	margin: 210 0 0 0;
 }
+.redes
+{
+width: 30px;
+text-align: center;
+font-size: 24px;
+background: #25d366;
+}
+.social
+{
+	position: fixed;
+	left: -45px;
+	top:240px;
+}
+.social a{
+	display: inline-block;
+	padding: 15px 20px;
+	z-index:0;
+	transition: 0.2s ease;
+}
+.social a:hover{
+	padding: 20px 30px;
+}
 .impie
 {
 	display: inline-block;
