@@ -98,6 +98,17 @@ section
 	height: 70px;
 	margin-top: 90px;
 }
+#articulo
+{
+background: #58D7A9;
+height: 68%;
+margin-top: 2%;
+}
+.articulo1
+{
+color: white;
+font-size: 170%;
+}
 #contactanos
 {
 	background: #99FFCC;
