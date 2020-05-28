@@ -42,20 +42,17 @@ section
 	position: absolute;
 	right: 40px;
 	bottom: 0px;
-	color: #fff;
+	color: black;
 	text-align: center;
 	margin: auto;
 }
 #blog a{
 	top: 10px;
 	text-decoration: none;
-	color: #fff;
+	color: white;
 	padding: 10px 55px 17px 55px;
 	display: inline-block;
 	font-size: 20px;
-}
-#blog a:hover{
-	background: grey;
 }
 #menu
 {  
