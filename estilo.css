@@ -35,6 +35,28 @@ section
 	color: black;
 	vertical-align: top;
 }
+#blog{
+	height: 50px;
+	width: 150px;
+	background: #000;
+	position: absolute;
+	right: 40px;
+	bottom: 0px;
+	color: #fff;
+	text-align: center;
+	margin: auto;
+}
+#blog a{
+	top: 10px;
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 55px 17px 55px;
+	display: inline-block;
+	font-size: 20px;
+}
+#blog a:hover{
+	background: grey;
+}
 #menu
 {  
 	height: 50px;
